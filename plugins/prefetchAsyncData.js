@@ -23,6 +23,7 @@ export default (context, inject) => {
     threshold: [0],
   }
 
+  //idea, logic from nuxt-payload-extractor (https://github.com/DreaMinder/nuxt-payload-extractor/blob/master/lib/module.js)
   const payloadKey = '__NUXT__'
   const extractPayload = (html) => {
     const chunks = html.split(`<script>window.${payloadKey}=`)
