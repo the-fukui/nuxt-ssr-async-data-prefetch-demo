@@ -2,21 +2,6 @@
 
 Prefetch nuxt-linked page's asyncData just like full static mode even when SSR.
 
-## Build Setup
-
-```bash
-# install dependencies
-$ npm install
-
-# serve with hot reload at localhost:3000
-$ npm run dev
-
-# build for production and launch server
-$ npm run build
-$ npm run start
-
-# generate static project
-$ npm run generate
-```
+demo: https://3000-cc64bcd2-1221-4d35-ac76-6c1dfc6e8f72.ws-us03.gitpod.io/
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
