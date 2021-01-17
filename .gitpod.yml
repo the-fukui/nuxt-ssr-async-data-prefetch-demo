@@ -1,4 +1,4 @@
 ports:
   - port: 3000
 tasks:
-  - command: "npm install && npm run build && npm run start"
+  - command: "npm install && npm run build -y && npm run start"
